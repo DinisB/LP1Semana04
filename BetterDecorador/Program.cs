@@ -21,7 +21,7 @@ namespace BetterDecorador
         /// Main method
         /// </summary>
         /// <param name="args">Console arguments </param>
-        /// <returns> Print decorated string to console </returns>
+        /// <returns> Print decorated string to console if there are args, else, say === User did not specify args ! ===</returns>
         private static void Main(string[] args)
         {
             if (args.Length != 0)
